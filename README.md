@@ -1,2 +1,2 @@
 # trybe-exercicios
-Trybe's exercise repository
+Meu repositório GIT para exercícios da Trybe!
