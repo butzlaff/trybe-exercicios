@@ -2,7 +2,7 @@
 
 <p color="green">My repository GIT for exercises from Trybe</p>
 
-## Tools and Technologies that we will lean:
+## Tools and Technologies that we will learn:
 
 <div>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" height="40"/>
