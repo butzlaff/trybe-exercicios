@@ -1,5 +1,10 @@
-# trybe-exercicios
-Meu repositório GIT para exercícios da Trybe!
+## Trybe Exercicios
+
+<p color="green">My repository GIT for exercises from Trybe</p>
+
+<p color="green">Meu repositório GIT para exercícios da Trybe!</p>
+
+## Tools and Technologies that we will lean:
 
 ## Ferramentas e Tecnologias que Iremos aprender:
 <div>
@@ -14,8 +19,10 @@ Meu repositório GIT para exercícios da Trybe!
 
 ## Contatos:
 
+## Contacts:
+
 <div>
-<a href="https://instagram.com/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+<a href="https://instagram.com/emiliobutzlaff" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
 <a href="https://www.twitch.tv/10n_butz" target="_blank"><img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white" target="_blank"></a>
 <a href = "mailto:emiliobutz@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 <a href="https://www.linkedin.com/in/emilio-butzlaff/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>   
