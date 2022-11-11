@@ -2,11 +2,8 @@
 
 <p color="green">My repository GIT for exercises from Trybe</p>
 
-<p color="green">Meu repositório GIT para exercícios da Trybe!</p>
-
 ## Tools and Technologies that we will lean:
 
-## Ferramentas e Tecnologias que Iremos aprender:
 <div>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" height="40"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40"/>
@@ -14,10 +11,6 @@
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" height="40"/>        
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="40" height="40"/>
 </div>    
-
-
-
-## Contatos:
 
 ## Contacts:
 
@@ -27,3 +20,4 @@
 <a href = "mailto:emiliobutz@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 <a href="https://www.linkedin.com/in/emilio-butzlaff/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>   
 </div>
+
