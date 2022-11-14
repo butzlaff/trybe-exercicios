@@ -17,12 +17,18 @@
         <div id="header-div">
         </div>
     </header>
+    <div>
+        <button type="button" id="blue" onclick="getColor(this)">MUDAR COR PARA AZUL</button>
+        <button type="button" id="green" onclick="getColor(this)">MUDAR COR PARA VERDE</button>
+        <button type="button" id="yellow" onclick="getColor(this)">MUDAR COR PARA AMARELO</button>
+        <button type="button" id="white" onclick="getColor(this)">MUDAR COR PARA BRANCO</button>
+    </div>
     <main id="main">
         <div id="div-main">
             <div id="div-main1" onclick="changeColor(this)">
                 <a>Esta é a primeira div</a>
             </div>
-            <div id="div-main2" onclick="changeColor(this)">
+            <div id="div-main2" color="green" onclick="changeColor(this)">
                 <a>Esta é a segunda div</a>
             </div>
         </div>
