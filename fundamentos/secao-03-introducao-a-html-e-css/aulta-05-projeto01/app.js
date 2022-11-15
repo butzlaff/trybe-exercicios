@@ -7,4 +7,3 @@ function getColor(color){
 //    localStorage.removeItem(color.id)
     localStorage.setItem('cor', `${color.id}`)
 }
-
