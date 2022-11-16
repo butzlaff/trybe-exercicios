@@ -1,49 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script src="app.js"></script>
-    <link href="style.css" rel="stylesheet">
-</head>
+    <link href="style.css" rel="stylesheet" />
+  </head>
 
-<body>
+  <body>
     <header id="header">
-        <a>Esta é a barra superior, também conhecido como Cabeçalho</a>
-
-        <div id="header-div">
-        </div>
+      <a>Esta é a barra superior, também conhecido como Cabeçalho</a>
+      <div id="header-div"></div>
     </header>
     <div>
-        <button type="button" id="blue" onclick="getColor(this)">MUDAR COR PARA AZUL</button>
-        <button type="button" id="green" onclick="getColor(this)">MUDAR COR PARA VERDE</button>
-        <button type="button" id="yellow" onclick="getColor(this)">MUDAR COR PARA AMARELO</button>
-        <button type="button" id="white" onclick="getColor(this)">MUDAR COR PARA BRANCO</button>
+      <button type="button" id="pink" onclick="getColor(this)">
+        MUDAR COR PARA ROSA
+      </button>
+      <button type="button" id="green" onclick="getColor(this)">
+        MUDAR COR PARA VERDE
+      </button>
+      <button type="button" id="yellow" onclick="getColor(this)">
+        MUDAR COR PARA AMARELO
+      </button>
+      <button type="button" id="white" onclick="getColor(this)">
+        MUDAR COR PARA BRANCO
+      </button>
     </div>
     <main id="main">
-        <div id="div-main">
-            <div id="div-main1" onclick="changeColor(this)">
-                <a>Esta é a primeira div</a>
-            </div>
-            <div id="div-main2" color="green" onclick="changeColor(this)">
-                <a>Esta é a segunda div</a>
-            </div>
+      <div id="div-main">
+        <div id="div-main1" onclick="changeColor(this)">
+          <a>Esta é a primeira div</a>
         </div>
-        <div id="div-main-2">
-            <div id="div-main3" onclick="changeColor(this)">
-                <a>Esta é a terceira div</a>
-            </div>
-            <div id="div-main4" onclick="changeColor(this)">
-                <a>Esta é a quarta div</a>
-            </div>
+        <div id="div-main2" color="green" onclick="changeColor(this)">
+          <a>Esta é a segunda div</a>
         </div>
+      </div>
+      <div id="div-main-2">
+        <div id="div-main3" onclick="changeColor(this)">
+          <a>Esta é a terceira div</a>
+        </div>
+        <div id="div-main4" onclick="changeColor(this)">
+          <a>Esta é a quarta div</a>
+        </div>
+      </div>
     </main>
     <footer id="footer">
-        <a>Este é o rodapé da página</a>
+      <a>Este é o rodapé da página</a>
     </footer>
-</body>
-
+  </body>
 </html>
