@@ -30,6 +30,7 @@ aside, footer, nav {
   img {
     display: block;
     max-width: 100%;
+    width: 480px;
   }
   
   nav {
