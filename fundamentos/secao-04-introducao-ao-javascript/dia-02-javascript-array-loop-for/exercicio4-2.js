@@ -12,3 +12,11 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 //     resultado += number 
 // }
 // console.log(resultado)
+
+// # Calcule e imprima a média aritmética dos valores contidos no array;
+
+// let resultado = 0
+// for (let number of numbers){
+//     resultado += number 
+// }
+// console.log(resultado / numbers.length)
