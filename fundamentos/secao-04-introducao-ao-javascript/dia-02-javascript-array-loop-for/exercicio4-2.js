@@ -75,7 +75,7 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 let arrayOfNumbers = [];
 for (i = 1; i < 26; i++) {
-    arrayOfNumbers.push(i)
+    arrayOfNumbers.push(i);
 }
 // console.log(arrayOfNumbers);
 
@@ -84,7 +84,7 @@ for (i = 1; i < 26; i++) {
 //     console.log(arrayOfNumbers[i] / 2)
 // }
 
-// # Percorra o array imprimindo todos os valores nele contidos com a função console.log();,
+// # Percorra o array imprimindo todos os valores nele contidos com a função console.log();
 for (let numberInArray of arrayOfNumbers){
-    console.log(numberInArray)
+    console.log(numberInArray);
 }
