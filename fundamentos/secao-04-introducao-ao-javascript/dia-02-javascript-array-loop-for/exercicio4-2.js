@@ -80,6 +80,11 @@ for (i = 1; i < 26; i++) {
 // console.log(arrayOfNumbers);
 
 // # Utilizando o array que acabou de criar, imprima o resultado da divisão de cada um dos elementos por 2
-for (let i = 0; i < arrayOfNumbers.length; i++){
-    console.log(arrayOfNumbers[i] / 2)
+// for (let i = 0; i < arrayOfNumbers.length; i++){
+//     console.log(arrayOfNumbers[i] / 2)
+// }
+
+// # Percorra o array imprimindo todos os valores nele contidos com a função console.log();,
+for (let numberInArray of arrayOfNumbers){
+    console.log(numberInArray)
 }
