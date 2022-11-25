@@ -73,10 +73,10 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 // # Utilizando for, crie um array que vá de 1 até 25 e imprima o resultado;
 
-let arrayOfNumbers = [];
-for (i = 1; i < 26; i++) {
-    arrayOfNumbers.push(i);
-}
+// let arrayOfNumbers = [];
+// for (i = 1; i < 26; i++) {
+//     arrayOfNumbers.push(i);
+// }
 // console.log(arrayOfNumbers);
 
 // # Utilizando o array que acabou de criar, imprima o resultado da divisão de cada um dos elementos por 2
@@ -85,6 +85,6 @@ for (i = 1; i < 26; i++) {
 // }
 
 // # Percorra o array imprimindo todos os valores nele contidos com a função console.log();
-for (let numberInArray of arrayOfNumbers){
-    console.log(numberInArray);
-}
+// for (let numberInArray of arrayOfNumbers){
+//     console.log(numberInArray);
+// }
