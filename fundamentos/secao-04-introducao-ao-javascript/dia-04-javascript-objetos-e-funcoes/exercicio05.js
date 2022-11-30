@@ -10,5 +10,14 @@ function Personagens(personagem, origem, nota, recorrente){
   let tioPatinhas = new Personagens('Tio Patinhas', 'Christmas on Bear Mountain, Dell’s Four Color Comics #178', 'O último MacPatinhas', 'Sim')
   
   for (let key in margarida){
+    if(margarida[key] === tioPatinhas[key]){
+        console.log('Ambos decorrentes')
+    }else{
     console.log(margarida[key] + ' e ' + tioPatinhas[key])
-  }
+}  
+}
+
+
+  console.table(margarida)
+
+  console.table(tioPatinhas)
