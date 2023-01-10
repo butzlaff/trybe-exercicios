@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +8,63 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header>
+    <H1>Concurso TrybeTrip</H1>
+  </header>
+  <main>
+    <form method="GET">
+      <div id="forms">
+        <label>
+          Nome:
+          <input type="text" maxlength='40' minlength="10" required>
+        </label>
+        <br>
+        <label>
+          Email:
+          <input type="text" maxlength='50' minlength="10" required>
+        </label>
+        <br>
+        <label id="radiobuttons">
+          Cidade
+          <input type="radio" id='radio-1' name="radiobutton">
+        </label>
+        <label>
+          Campo
+          <input type="radio" id='radio-2' name="radiobutton">
+        </label>
+        <label>
+          Praia
+          <input type="radio" id='radio-3' name="radiobutton">
+        </label>
+        <label>
+          Montanhas
+          <input type="radio" id='radio-4' name="radiobutton">
+        </label>
+        <p>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</p>
+        <label>
+          <textarea maxlength="500" rows="10" cols="50" placeholder='Espaço para digitar a resposta'></textarea>
+        </label>
+        <br>
+        <label>
+          Data:
+          <input type="date">
+        </label>
+        <br>
+        <label>
+          Concordo 1:
+          <input type="checkbox" required>
+        </label>
+        <br>
+        <label>
+          Concordo 2:
+          <input type="checkbox" required>
+        </label>
+      </div>
+      <input type="submit" value="Enviar" id="send">
+      <input type="reset" id="sendCancel" value="Apagar">
+
+    </form>
+  </main>
   <script src="script.js"></script>
 </body>
 </html>

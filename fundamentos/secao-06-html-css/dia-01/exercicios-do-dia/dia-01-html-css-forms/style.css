@@ -1,0 +1,28 @@
+h1 {
+  font-size: 60px;
+}
+
+* {
+  color: red;
+}
+
+#forms {
+  border: 5px solid crimson;
+}
+
+label {
+  margin-top: 5px;
+}
+
+#send {
+  color: black;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: flex-start;
+}
