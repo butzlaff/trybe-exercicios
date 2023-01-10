@@ -1,20 +1,23 @@
 h1 {
   font-size: 60px;
+  color: darkblue;
 }
 
 * {
-  color: red;
+  color: darkcyan;
 }
 
+
 #forms {
-  border: 5px solid crimson;
+  padding: 1rem;
+  border: 0.1rem solid darkblue;
 }
 
 label {
   margin-top: 5px;
 }
 
-#send {
+input {
   color: black;
 }
 
