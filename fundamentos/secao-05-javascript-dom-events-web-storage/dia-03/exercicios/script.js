@@ -16,28 +16,51 @@ const createDaysOfTheWeek = () => {
   const createDays = () => {
     const selectUl = document.getElementById('days')
     for (let index = 0; index < decemberDaysList.length; index++){
-        const createDaysLi = document.createElement('li')
+        const createDaysLi = document.createElement('li');
         createDaysLi.className = 'day';
         createDaysLi.innerText = decemberDaysList[index];
         selectUl.appendChild(createDaysLi);
         if (decemberDaysList[index] === 24 || decemberDaysList[index] === 25 || decemberDaysList[index] === 31){
             createDaysLi.classList.add('holyday');
-        }
-    }
+        };
+    };
     createFriday();
-  }
+  };
 
   const createFriday = () => {
     const fridays = document.querySelectorAll('.day');
     for (let index = 5; index < fridays.length; index += 7){
-        fridays[index].classList.add('friday')
+        fridays[index].classList.add('friday');
+    };
+  };
+
+  const createButton = (params) => {
+    const fatherElement = document.querySelector('.buttons-container');
+    const newButton = document.createElement('button');
+    newButton.id = 'btn-holiday';
+    newButton.innerText = params;
+    fatherElement.appendChild(newButton);
+    newButton.addEventListener('click', changeHolidayColor);
+}
+
+const changeHolidayColor = () => {
+    const elementChangeColor = document.querySelectorAll('.holyday');
+    //console.log(elementChangeColor)
+    for (let i = 0; i < elementChangeColor.length; i++){
+        if(elementChangeColor[i].style.backgroundColor != 'yellow'){
+        elementChangeColor[i].style.backgroundColor = 'yellow';
+        } else {
+        elementChangeColor[i].style.backgroundColor = 'rgb(238,238,238';
     }
-  }
+    }
+}
 
   window.onload = () => {
     createDaysOfTheWeek();
     createDays();
-  }
+    createButton('Feriados')
+    //changeHolidayColor()
+  };
 
   // Escreva seu código abaixo.
   

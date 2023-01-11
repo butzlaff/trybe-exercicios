@@ -153,4 +153,8 @@
     margin: 0px;
     padding: 10px 0;
   }
-  
+
+  #btn-holiday {
+    width: 8rem;
+    height: 2rem;
+  }
