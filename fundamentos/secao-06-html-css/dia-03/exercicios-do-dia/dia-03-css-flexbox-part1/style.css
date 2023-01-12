@@ -61,6 +61,12 @@ section div {
   border-radius: 10%;
 }
 
+section div:hover {
+  background-color: darkgray;
+  transition: transform 0.3s;
+  transform: translateX(0) scale(1.1);
+} 
+
 h4 {
   text-align: center;
   margin: 1rem;
@@ -97,4 +103,10 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+h3:hover {
+  color: darkgrey;
+  transition: transform 0.3s;
+  transform: translateX(0) scale(1.5);
 }
