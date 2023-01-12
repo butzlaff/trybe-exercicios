@@ -1,0 +1,8 @@
+Lista do exercicio:
+  ✔ Adicione os campos de entrada para email e senha. @done (1/10/2023, 12:58:19 PM)
+  ✔ Adicione um checkbox com o texto Lembre-me. @done (1/10/2023, 12:59:19 PM)
+  ✔ Adicione um botão com o texto Entrar; crie o botão através da tag <input>. @done (1/10/2023, 1:01:40 PM)
+  ✔ Adicione os placeholder Digite seu email e Digite sua senha para os campos de email e senha. @done (1/10/2023, 1:01:42 PM)
+  ✔ Adicione o atributo required para os campos de email e senha. @done (1/10/2023, 1:02:51 PM)
+  ✔ Adicione o atributo autocomplete="off" para o campo de email. @done (1/10/2023, 1:03:34 PM)
+  ✔ Adicione o atributo autofocus para o campo de email. @done (1/10/2023, 1:03:34 PM)

@@ -1,0 +1,31 @@
+h1 {
+  font-size: 60px;
+  color: darkblue;
+}
+
+* {
+  color: darkcyan;
+}
+
+
+#forms {
+  padding: 1rem;
+  border: 0.1rem solid darkblue;
+}
+
+label {
+  margin-top: 5px;
+}
+
+input {
+  color: black;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: flex-start;
+}
