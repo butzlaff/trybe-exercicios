@@ -1,29 +1,14 @@
 const pessoaEstudante = new Object();
-
 //nome, email, telefone, github e linkedIn
 
-const handleSetProprieties = (
-  objectName,
-  nome,
-  email,
-  telefone,
-  github,
-  linkedIn
-) => {
-  objectName.nome = nome;
-  objectName.email = email;
-  objectName.telefone = telefone;
-  objectName.github = github;
-  objectName.linkedIn = linkedIn;
+const handleSetNewPerson = (objectTarget, key, value) => {
+  objectTarget[key] = value;
 };
 
-handleSetProprieties(
-  pessoaEstudante,
-  'Emilio',
-  'emiliobutz@gmail.com',
-  '(027)-99793-7670',
-  'github.com/butzaff',
-  'linkedin.com/in/emiliobutz'
-);
+handleSetNewPerson(pessoaEstudante, 'name', 'Emilio');
+handleSetNewPerson(pessoaEstudante, 'email', 'emiliobutz@gmail.com');
+handleSetNewPerson(pessoaEstudante, 'telefone', '(27)99793-7670');
+handleSetNewPerson(pessoaEstudante, 'github', 'github.com/butzlaff');
+handleSetNewPerson(pessoaEstudante, 'linkedin', 'linkedin/in/emiliobutz');
 
 console.log(pessoaEstudante);
