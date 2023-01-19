@@ -7,16 +7,17 @@ const loginErrorMessage = (user) => {
 };
 // trazemos aqui esse objeto somente para demonstrar como funciona a função verifyCredentials, mas poderiam ser quaisquer outros dados.
 const user = {
-  userName: 'Joana',
+  userName: 'Bob',
   password: 123456,
 };
 const verifyCredentials = (userInfo) => {
   const userName = userInfo.userName;
   const password = userInfo.password;
-  if (password === 123456 && userName === 'Joana') {
+  if (password === 123456 && userName === 'Bob') {
     return greetingMessage(userName);
   } else {
     return loginErrorMessage(userName);
   }
 };
-module.exports = { greetingMessage, loginErrorMessage, verifyCredentials };
+
+module.exports = { user, greetingMessage, loginErrorMessage, verifyCredentials };
