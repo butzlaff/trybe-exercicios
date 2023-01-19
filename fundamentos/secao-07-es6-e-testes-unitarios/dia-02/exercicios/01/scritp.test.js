@@ -55,7 +55,7 @@ it('Verifique se as demais número não são convertidos para letra', () => {
   expect(decode('1,2,3,4,5,6,7,8,9,0')).not.toBe('a,b,c,d,e,f,g,h,i,j,k');
 });
 it('Verifique se a string que é retornada pelas funções tem o mesmo número de caracteres que a string passada como parâmetro', () => {
-  expect(encode('aeiou').length).toBe(5);
+  expect(encode('aeiou').length).toEqual(5);
 });
   // // Execute a função myFizzBuzz(num), sendo num um número divisível por 3, e verifique se o retorno é o esperado.
   // it('Verifique se a chamada myFizzBuzz sendo num um número divisível por 3 se retorno é o esperado é fizz', () => {
