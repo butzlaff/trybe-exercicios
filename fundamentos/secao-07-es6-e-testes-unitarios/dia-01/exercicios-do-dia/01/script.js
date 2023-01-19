@@ -1,7 +1,9 @@
 const verifyNumbers = (value1, value2) => {
-  if (value1.trim() === '' || value2.trim() === '' || isNaN(value1) || isNaN(value2)) {
-    throw new Error('Digite um número válido');
+  if (value1.trim() === '' || value2.trim() === '' ) {
+    throw new Error('Por favor, verifique pois existe campo vazio');
   }
+  if (isNaN(value1) || isNaN(value2))
+    throw new Error('Não foi digitado um valor númerico válido');
 };
 
 const sum = () => {
