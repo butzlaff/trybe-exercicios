@@ -54,5 +54,6 @@ const decode = (string) => {
   };
   return mapString(map, string);
 }
+console.log(encode('abcs'))
 
-module.exports = {myRemove, myFizzBuzz};
+module.exports = {myRemove, myFizzBuzz, mapString, encode, decode};
