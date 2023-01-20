@@ -57,22 +57,7 @@ it('Verifique se as demais número não são convertidos para letra', () => {
 it('Verifique se a string que é retornada pelas funções tem o mesmo número de caracteres que a string passada como parâmetro', () => {
   expect(encode('aeiou').length).toEqual(5);
 });
-  // // Execute a função myFizzBuzz(num), sendo num um número divisível por 3, e verifique se o retorno é o esperado.
-  // it('Verifique se a chamada myFizzBuzz sendo num um número divisível por 3 se retorno é o esperado é fizz', () => {
-  //   expect(myFizzBuzz(3)).toMatch(/fizz/);
-  // });
-  // // Execute a função myFizzBuzz(num), sendo num um número divisível por 5, e verifique se o retorno é o esperado.
-  // it('Verifique se a chamada myFizzBuzz sendo num um número divisível 5 se retorno é o esperado é buzz', () => {
-  //   expect(myFizzBuzz(5)).toMatch(/buzz/);
-  // });
-  // // Execute a função myFizzBuzz(num), sendo num um número que não é divisível por 3 ou 5, e verifique se o retorno é o esperado.
-  // it('Verifique se a chamada myFizzBuzz sendo num um número que não é divisível por 3 ou 5, e verifique se o retorno é o numero', () => {
-  //   expect(myFizzBuzz(11)).toBe(11);
-  // });
-  // // Execute a função myFizzBuzz(num), sendo num um parâmetro que não é um número, e verifique se o retorno é o esperado.
-  // it('Verifique se a chamada myFizzBuzz sendo num um parâmetro que não é um número é false', () => {
-  //   expect(myFizzBuzz('a')).toBeFalsy();
-  });
+});
 
 
 
