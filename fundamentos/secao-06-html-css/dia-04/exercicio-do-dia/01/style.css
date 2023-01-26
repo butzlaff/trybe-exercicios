@@ -16,11 +16,18 @@ body {
 
 .logo-container {
   display: flex;
+  flex-basis: 268px;
   justify-content: center;
+  order: -1;
+  align-self: flex-start;
 }
 
 .menu-container {
   display: flex;
+  flex-basis: 500px;
+  flex-grow: 1;
+  align-items: flex-start;
+  align-self: center;
 }
 
 .menu-container ul {
@@ -37,18 +44,6 @@ body {
   margin-right: 10px;
 }
 
-.header-container > .logo-container {
-  order: 0;
-  align-self: flex-start;
-}
-
-.header-container > .menu-container {
-  order: 1;
-  width: 100%;
-  align-items: flex-start;
-  justify-content: space-evenly;
-}
-
 .main-container {
   display: flex;
   flex-wrap: wrap;
@@ -57,7 +52,7 @@ body {
 .movie-container {
   display: flex;
   flex-direction: column;
-  flex-basis: 600px;
+  flex-basis: 500px;
   align-self: center;
   flex-shrink: 1;
   flex-grow: 1;

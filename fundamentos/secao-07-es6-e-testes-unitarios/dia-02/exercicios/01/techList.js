@@ -10,12 +10,4 @@ const techList = (array, name) => {
   return newObjeto;
 }
 
-console.log(techList(['React', 'Html'], 'Emilio'))
-
-// const techListAdd = {
-//   tech: 'React',
-//   name: 'Emilio',
-// }
-
-
 module.exports = techList;
