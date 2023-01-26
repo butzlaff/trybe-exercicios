@@ -110,11 +110,9 @@ const someBookWasReleaseOnThe80s = () => books.some((book) => book.releaseYear >
 
 // const expectedResult = false;
 
-const authorUnique = () => {
-  return books.every((book) => {
+const authorUnique = () => 
+  books.every((book) => 
     books.some((book2) => 
-    (book2.birthYear === book.birthYear) && (book2.author.name !== book.author.name)
-    )});
-};
+    (book.author.birthYear === book2.author.birthYear) && (book.author.name !== book2.author.name)));
 
 console.log(authorUnique())
