@@ -79,11 +79,6 @@ const arrayStrings = books.map((book) => `${book.name} - ${book.genre} - ${book.
 const formatedAuthorNamesBirth = () => books.map((book) => `${book.author.name} - ${book.author.birthYear}`)
 // console.log(formatedAuthorNamesBirth());
 
-// const expectedResult = [
-//   {
-//     author: 'Isaac Asimov',
-//     age: 31,
-//   }]
 
 const handleAuthorAge = () => books.map((book) => {
 return { 
