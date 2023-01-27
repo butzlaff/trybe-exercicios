@@ -63,26 +63,16 @@ const books = [
 
 //Crie um array com strings no formato NOME_DO_LIVRO - GÊNERO_DO_LIVRO - NOME_DA_PESSOA_AUTORA
 
-const arrayStrings = books.map((book) => `${book.name} - ${book.genre} - ${book.author.name}`)
+const arrayStrings = () => books.map((book) => `${book.name} - ${book.genre} - ${book.author.name}`)
 
-// console.log(arrayStrings)
-
-// const expectedResult = [
-//   'George R. R. Martin - 1948',
-//   'J. R. R. Tolkien - 1892',
-//   'Isaac Asimov - 1920',
-//   'Frank Herbert - 1920',
-//   'Stephen King - 1947',
-//   'H. P. Lovecraft - 1890',
-// ];
+// console.log(arrayStrings);
 
 const formatedAuthorNamesBirth = () => books.map((book) => `${book.author.name} - ${book.author.birthYear}`)
 // console.log(formatedAuthorNamesBirth());
 
-
 const handleAuthorAge = () => books.map((book) => {
 return { 
-  author: `${book.author.name}`, age: Number(`${book.releaseYear - book.author.birthYear}`)}})
+  author: book.author.name, age: (book.releaseYear - book.author.birthYear)}})
   .sort((author, author2) => author.age - author2.age)
 
-console.log(handleAuthorAge())
+console.log(handleAuthorAge());
