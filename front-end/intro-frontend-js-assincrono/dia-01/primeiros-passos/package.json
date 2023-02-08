@@ -1,0 +1,11 @@
+{
+  "name": "gerador-de-senhas",
+  "version": "1.0.0",
+  "description": "Gerador de senhas seguras",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}
