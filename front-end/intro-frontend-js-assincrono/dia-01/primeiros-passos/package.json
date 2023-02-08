@@ -4,8 +4,16 @@
   "description": "Gerador de senhas seguras",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint ./src"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@trybe/eslint-config-frontend": "^1.8.3",
+    "nanoid": "^4.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.33.0"
+  }
 }
